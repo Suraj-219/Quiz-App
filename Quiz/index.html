@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Quiz App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz Time!</h1>
+    <div style="display: flex; gap: 2rem; align-items: flex-start; justify-content: center;">
+      <div style="flex: 1;">
+        <div id="question"></div>
+        <div id="answers"></div>
+        <button id="next-btn" class="hidden">Next</button>
+        <div id="result" class="hidden"></div>
+        <div id="wrong-list" class="hidden"></div>
+      </div>
+      <div id="diagram-container" style="flex: 0 0 180px; display: none;">
+        <canvas id="result-diagram" width="160" height="160" style="display: block; margin: 0 auto;"></canvas>
+        <div style="text-align: center; margin-top: 0.5rem; font-weight: 600;" id="diagram-label"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
