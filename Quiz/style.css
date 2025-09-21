@@ -127,7 +127,7 @@ body {
     display: none;
   }
 
-/* Modern scrollbar */
+
 ::-webkit-scrollbar {
   width: 8px;
   background: #e0c3fc33;
@@ -138,7 +138,7 @@ body {
   border-radius: 8px;
 }
 
-/* Responsive for mobile */
+
 @media (max-width: 480px) {
   .quiz-container {
     width: 98vw;
